@@ -19,3 +19,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# Audio files
+public/audio/*
+!public/audio/.gitkeep
