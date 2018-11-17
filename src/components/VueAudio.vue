@@ -2,7 +2,7 @@
 	<div class="vue-audio-player-wrapper">
 		<h1>Demo - Preview Song</h1>
 		<img class="song-cover" src="../assets/images/logo.png" alt="" />
-		<audio class="vue-audio-player" src="audio/counterattack.mp3" type="audio/mp3" controls></audio>
+		<audio class="vue-audio-player" type="audio/mp3" controls></audio>
 	</div>
 </template>
 
@@ -15,8 +15,12 @@ export default {
 	name: 'VueAudio',
 
 	mounted() {
+		const player = this.$el.querySelector('.vue-audio-player');
+		player.src = require('../assets/audio/counterattack.mp3');
+		player.load();
+
 		// eslint-disable-next-line no-undef
-		new MediaElementPlayer(this.$el.querySelector('.vue-audio-player'), {
+		new MediaElementPlayer(player, {
 			tabindex: 0,
 			alwaysShowControls: true,
 			features: ['playpause', 'volume', 'progress', 'duration'],
