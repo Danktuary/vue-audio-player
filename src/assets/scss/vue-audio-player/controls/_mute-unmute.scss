@@ -1,0 +1,11 @@
+.mejs-mute button,
+.mejs-unmute button {
+	background: url('../assets/images/mute-unmute.png') 0 0;
+	top: 0;
+	width: 14px;
+	height: 12px;
+}
+
+.mejs-unmute button {
+	background-position: 0 -12px;
+}

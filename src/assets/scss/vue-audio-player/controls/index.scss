@@ -1,0 +1,28 @@
+.mejs-controls {
+	.mejs-button button {
+		display: block;
+		position: absolute;
+		cursor: pointer;
+		text-indent: -9999px;
+	}
+
+	@import 'play-pause.scss';
+	@import 'mute-unmute.scss';
+	@import 'progress.scss';
+	@import 'volume.scss';
+
+	/* Volume Slider & Progress Bar Handle */
+	.mejs-time-rail .mejs-time-handle,
+	.mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+		background: url('../assets/images/handle.png') no-repeat;
+		display: block;
+		position: absolute;
+		top: -4px;
+		width: 12px;
+		height: 14px;
+	}
+
+	.mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+		top: -2px;
+	}
+}

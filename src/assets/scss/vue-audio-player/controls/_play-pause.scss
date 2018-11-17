@@ -1,0 +1,11 @@
+.mejs-play button,
+.mejs-pause button {
+	background: url('../assets/images/play-pause.png') 0 0;
+	top: 0px;
+	width: 21px;
+	height: 21px;
+}
+
+.mejs-pause button {
+	background-position: 0 -21px;
+}

@@ -1,0 +1,25 @@
+.mejs-horizontal-volume-slider {
+	position: absolute;
+	bottom: 25px;
+	left: 165px;
+	cursor: pointer;
+
+	.mejs-horizontal-volume-total {
+		background-color: #212227;
+		width: 200px;
+		height: 8px;
+		border-radius: 6px;
+		box-shadow: inset 0px 1px 0px rgba(0,0,0, .3), 0px 1px 0px rgba(255,255,255, .25);
+	}
+	
+	.mejs-horizontal-volume-current {
+		background: url('../assets/images/volume-bar.png') repeat-x;
+		position: absolute;
+		top: 1px;
+		left: 1px;
+		width: 0;
+		height: 6px;
+		border-radius: 6px;
+	}
+}
+

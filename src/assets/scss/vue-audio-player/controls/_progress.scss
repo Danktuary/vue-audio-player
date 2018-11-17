@@ -1,0 +1,58 @@
+.mejs-time-rail {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+	span {
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height: 5px;
+		border-radius: 0 0 3px 3px;
+		cursor: pointer;
+	}
+	
+	.mejs-time-total {
+		width: 100% !important;
+		background-color: #999999;
+	}
+	
+	.mejs-time-loaded {
+		background-color: #cccccc;
+	}
+	
+	.mejs-time-current {
+		background-color: #41B883;
+	}
+	
+	.mejs-time-handle .mejs-time-handle-content {
+		top: 4px;
+	}
+
+	.mejs-time-float {
+		background: url('../assets/images/time-box.png');
+		display: none;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		width: 33px;
+		height: 23px;
+		z-index: 500;
+
+		.mejs-time-float-current {
+			color: #666666;
+			display: block;
+			top: 4px;	
+			left: 0;
+			width: 33px;
+			font-size: 10px;
+			font-weight: bold;
+			text-align: center;
+			text-shadow: none;
+		}
+	}
+
+}
+
