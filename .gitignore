@@ -21,5 +21,5 @@ yarn-error.log*
 *.sw*
 
 # Audio files
-public/audio/*
-!public/audio/.gitkeep
+src/assets/audio/*
+!src/assets/audio/.gitkeep
