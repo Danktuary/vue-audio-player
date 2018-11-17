@@ -29,5 +29,9 @@ module.exports = {
 		}],
 		'vue/require-default-prop': 'off',
 		'vue/require-prop-types': 'off',
+		'vue/html-closing-bracket-newline': ['error', {
+			'singleline': 'never',
+			'multiline': 'always'
+		}]
 	},
 };
