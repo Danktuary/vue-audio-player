@@ -13,12 +13,12 @@
 	}
 	
 	.mejs-horizontal-volume-current {
-		background: url('../assets/images/volume-bar.png') repeat-x;
+		background-color: #41B883;
 		position: absolute;
-		top: 1px;
+		top: 0px;
 		left: 1px;
 		width: 0;
-		height: 6px;
+		height: 7px;
 		border-radius: 6px;
 	}
 }
